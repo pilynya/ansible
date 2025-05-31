@@ -1,10 +1,10 @@
 # ansible
 [hq]
 hq-srv ansible_ssh_user=sshuser ansible_port=2025
-hq-rtr ansible_user=net_admin ansible_password=P@ssw0rd ansible_connection=network_cli ansible_network_os=iso
+hq-rtr ansible_user=net_admin ansible_password=P@ssw0rd ansible_connection=network_cli ansible_network_os=ios
 [routers]
-hq-rtr ansible_user=net_admin ansible_password=P@ssw0rd ansible_connection=network_cli ansible_network_os=iso
-br-rtr ansible_user=net_admin ansible_password=P@ssw0rd ansible_connection=network_cli ansible_network_os=iso
+hq-rtr ansible_user=net_admin ansible_password=P@ssw0rd ansible_connection=network_cli ansible_network_os=ios
+br-rtr ansible_user=net_admin ansible_password=P@ssw0rd ansible_connection=network_cli ansible_network_os=ios
 [info]
 hq-cli ansible_ssh_user=student
 hq-srv ansible_ssh_user=sshuser ansible_port=2025
