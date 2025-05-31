@@ -1,4 +1,5 @@
 # ansible
+nano /etc/ansible/hosts
 [hq]
 hq-srv ansible_ssh_user=sshuser ansible_port=2025
 hq-rtr ansible_user=net_admin ansible_password=P@ssw0rd ansible_connection=network_cli ansible_network_os=ios
